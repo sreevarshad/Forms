@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+</head>
+<body bgcolor="#f0f8ff" text="#000000" link="#4CAF50" alink="#4CAF50" vlink="#4CAF50">
+
+    <h2 align="center" style="color: #4CAF50;">Login</h2>
+
+    <form action="/submit" method="post" align="center">
+        <table border="0" cellpadding="10" cellspacing="10" bgcolor="#ffffff" align="center">
+            <tr>
+                <td align="right">
+                    <label for="username" style="color:#4CAF50;">Username:</label>
+                </td>
+                <td>
+                    <input type="text" id="username" name="username" required>
+                </td>
+            </tr>
+            <tr>
+                <td align="right">
+                    <label for="password" style="color:#4CAF50;">Password:</label>
+                </td>
+                <td>
+                    <input type="password" id="password" name="password" required>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Login" style="background-color:#4CAF50; color:white; border:none; padding:10px 20px; border-radius:5px;">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>
